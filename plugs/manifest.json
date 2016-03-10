@@ -1,0 +1,19 @@
+{  
+  "name": "JumorZhu's QRCODE",  
+  "version": "0.0.1", 
+  "manifest_version": 2, 
+  "description": "You can find me easily with my tools~",  
+  "permissions": ["tabs"],
+  "icons": { "16": "image/icon16.png",
+             "48": "image/icon48.png",
+            "128": "image/icon128.png" },
+  "background": { "scripts": ["js/background.js"] },
+  "browser_action":{  
+    "default_icon":{
+      "19":"image/icon19.png",
+      "38":"image/icon38.png"
+      } ,
+    "default_title": "二维码插件",
+    "default_popup": "index.html"
+  }
+} 
